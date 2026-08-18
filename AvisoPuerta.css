@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+
+public class AvisoPuerta : MonoBehaviour
+{
+    public GameObject menuDeAviso;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // EL CHIVATO: Esto imprimirá un mensaje cada vez que CUALQUIER cosa toque el cubo
+        Debug.Log("¡El cubo ha sido tocado por: " + other.gameObject.name + " con la etiqueta " + other.tag + "!");
+
+        if (other.CompareTag("Player"))
+        {
+            menuDeAviso.SetActive(true);
+            gameObject.SetActive(false); 
+        }
+    }
+}

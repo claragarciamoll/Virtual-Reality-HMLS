@@ -1,0 +1,21 @@
+﻿using UnityEngine;
+
+public class AvisoPuerta : MonoBehaviour
+{
+    // Esta es la caja donde arrastraremos tu menú de aviso
+    public GameObject menuDeAviso;
+
+    // Esta función la ejecuta Unity automáticamente si algo entra en el cubo invisible
+    private void OnTriggerEnter(Collider other)
+    {
+        // Preguntamos si la cosa que ha entrado tiene la etiqueta "Player" (tu personaje)
+        if (other.CompareTag("Player"))
+        {
+            // Si eres tú, encendemos el menú de aviso
+            menuDeAviso.SetActive(true);
+            
+            // Opcional: Apagamos este cubo invisible para que el aviso no vuelva a saltar más
+            gameObject.SetActive(false); 
+        }
+    }
+}
