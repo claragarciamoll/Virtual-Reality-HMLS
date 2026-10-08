@@ -1,6 +1,6 @@
 # An Immersive Virtual Reality Learning Environment for Handheld Mobile Laser Scanner Operation
 
-Official repository for the paper **"An Immersive Virtual Reality Learning Environment for Handheld Mobile Laser Scanner Operation"** presented at ISPRS / PHEDCS 2025.
+Official repository for the paper **"An Immersive Virtual Reality Learning Environment for Handheld Mobile Laser Scanner Operation"** presented at ISPRS / PHEDCS 2026.
 
 **Authors:** Clara Garcia-Moll, Alba Gilsanz-Lorenzo, Pedro Arias, and Jesus Balado  
 **Affiliation:** GeoTECH, CINTECX, Universidade de Vigo, Spain  
@@ -87,7 +87,7 @@ If you find this software or framework useful in your research, please cite our 
   title     = {An Immersive Virtual Reality Learning Environment for Handheld Mobile Laser Scanner Operation},
   author    = {Garcia-Moll, Clara and Gilsanz-Lorenzo, Alba and Arias, Pedro and Balado, Jesus},
   booktitle = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences (PHEDCS 2025)},
-  year      = {2025},
+  year      = {2026},
   address   = {Tashkent, Uzbekistan},
   publisher = {ISPRS}
 }
